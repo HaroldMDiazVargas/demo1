@@ -1,10 +1,10 @@
 pipeline {
     agent { 
         node {
-            label 'dev'                                     => This is our Docker Agent(includes python)
+            label 'dev'                                     
             }
       }
-    triggers {                                                              => We set a new Build-trigger, automatically every 5min check if new one on github
+    triggers {                                                              
         pollSCM '*/5 * * * *'
     }
     stages {
