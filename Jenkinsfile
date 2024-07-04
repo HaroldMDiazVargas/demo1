@@ -1,7 +1,7 @@
 pipeline {
     agent { 
         node {
-            label 'dev-pod'                                     
+            label 'prueba-a'                                     
             }
       }
     triggers {                                                              
